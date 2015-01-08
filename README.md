@@ -6,8 +6,9 @@
 --------------------
 
 ##Incentive:
-    It's hard to find a image blending tool in python. Some rare tool either have little mode to choose
-    or out_of_dated and hard to install. Therefore I just implement all methods available on in Internet.
+    It's hard to find a image blending tool in python. Available tools either have little
+    mode to choose or out_of_dated and hard to install. Therefore I just implement all 
+    methods available on in Internet.
 ##Recommended usage:
 
 ```python
