@@ -17,8 +17,8 @@ def run_example( size = 64 ):
         light_only     dark_only      lighten        darken    
         lighter_color  darker_color   
         """
-    top = misc.imresize( misc.imread('top.png')[:,:,:-1], (size,size,3) )
-    base = misc.imresize( misc.imread('base.png')[:,:,:-1], (size,size,3) )
+    top = misc.imresize( misc.imread('./imgs/top.png')[:,:,:-1], (size,size,3) )
+    base = misc.imresize( misc.imread('./imgs/base.png')[:,:,:-1], (size,size,3) )
     modes = modes.split()
     num_of_mode = len( modes )
     result = np.zeros( [ size*2, size*(num_of_mode//2+2), 3 ])
